@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.474">
+    <testcase classname="LoginTest" name="Successfully login with correct credentials" time="0.192">
+        <system-out><![CDATA[Given User launch the chrome browser........................................passed
+And User open the URL "https://admin-demo.nopcommerce.com/login"............passed
+When User enters Email as "admin@yourstore.com" and Password as "admin".....passed
+And Click on login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on log out link.............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And Close Browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
